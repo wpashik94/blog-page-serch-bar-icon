@@ -1,0 +1,20 @@
+/*---------serch bar icon-----*/
+.wp-block-search__button,
+.wc-block-product-search__button{
+	position:relative !important;
+}
+.wp-block-search__button::before, 
+.wc-block-product-search__button::before {
+    content: '\f105';
+	position:absolute;
+    font-family: "FontAwesome";
+    font-size: 24px;
+    top: 8px;
+    left: 10px;
+}
+.wp-block-search .wp-block-search__button {
+    background: #F2184F !important;
+    border: 1px solid #F2184F !important;
+    color: #fff !important;
+    padding: 10px 15px;
+}
